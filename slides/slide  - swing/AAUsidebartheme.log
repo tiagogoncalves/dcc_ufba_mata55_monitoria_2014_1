@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2014.2.27)  27 MAR 2014 01:46
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2014.2.27)  27 MAR 2014 02:53
 entering extended mode
  %&-line parsing enabled.
 **AAUsidebartheme.tex
@@ -1189,9 +1189,6 @@ theme.toc)
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <14.4> not available
 (Font)              Font shape `T1/phv/m/sl' tried instead on input line 63.
 
-Overfull \vbox (455.96829pt too high) detected at line 63
- []
-
 <AAUgraphics/logodcc.png, id=299, 200.75pt x 159.59625pt>
 File: AAUgraphics/logodcc.png Graphic file (type png)
 
@@ -1211,6 +1208,7 @@ File: AAUgraphics/aau_logo_new_circle.png Graphic file (type png)
 
 <use AAUgraphics/aau_logo_new_circle.png> [3
 
+
 ]
 File: AAUgraphics/logodcc.png Graphic file (type png)
  <use AAUgraphics/logodcc.png>
@@ -1220,6 +1218,7 @@ File: AAUgraphics/aau_logo_new_circle.png Graphic file (type png)
 
 <use AAUgraphics/aau_logo_new_circle.png> [4
 
+
 ]
 File: AAUgraphics/logodcc.png Graphic file (type png)
  <use AAUgraphics/logodcc.png>
@@ -1228,6 +1227,7 @@ Overfull \vbox (356.08028pt too high) has occurred while \output is active []
 File: AAUgraphics/aau_logo_new_circle.png Graphic file (type png)
 
 <use AAUgraphics/aau_logo_new_circle.png> [5
+
 
 ]
 File: AAUgraphics/logodcc.png Graphic file (type png)
@@ -1743,6 +1743,33 @@ File: AAUgraphics/aau_logo_new_circle.png Graphic file (type png)
 <use AAUgraphics/aau_logo_new_circle.png> [62
 
 ]
+File: AAUgraphics/logodcc.png Graphic file (type png)
+ <use AAUgraphics/logodcc.png>
+Overfull \vbox (356.08028pt too high) has occurred while \output is active []
+
+File: AAUgraphics/aau_logo_new_circle.png Graphic file (type png)
+
+<use AAUgraphics/aau_logo_new_circle.png> [63
+
+]
+File: AAUgraphics/logodcc.png Graphic file (type png)
+ <use AAUgraphics/logodcc.png>
+Overfull \vbox (356.08028pt too high) has occurred while \output is active []
+
+File: AAUgraphics/aau_logo_new_circle.png Graphic file (type png)
+
+<use AAUgraphics/aau_logo_new_circle.png> [64
+
+]
+File: AAUgraphics/logodcc.png Graphic file (type png)
+ <use AAUgraphics/logodcc.png>
+Overfull \vbox (356.08028pt too high) has occurred while \output is active []
+
+File: AAUgraphics/aau_logo_new_circle.png Graphic file (type png)
+
+<use AAUgraphics/aau_logo_new_circle.png> [65
+
+]
 Overfull \hbox (15.5899pt too wide) in paragraph at lines 264--264
 \T1/phv/m/n/10 http://docs.oracle.com/javase/7/docs/api/javax/swing/package- 
  []
@@ -1753,7 +1780,7 @@ Overfull \vbox (356.08028pt too high) has occurred while \output is active []
 
 File: AAUgraphics/aau_logo_new_circle.png Graphic file (type png)
 
-<use AAUgraphics/aau_logo_new_circle.png> [63
+<use AAUgraphics/aau_logo_new_circle.png> [66
 
 ]
 \tf@nav=\write6
@@ -1767,10 +1794,10 @@ File: AAUgraphics/aau_logo_new_circle.png Graphic file (type png)
 
  (./AAUsidebartheme.aux) ) 
 Here is how much of TeX's memory you used:
- 18313 strings out of 495061
- 342917 string characters out of 1182621
- 431181 words of memory out of 3000000
- 20809 multiletter control sequences out of 15000+50000
+ 18339 strings out of 495061
+ 343541 string characters out of 1182621
+ 424860 words of memory out of 3000000
+ 20829 multiletter control sequences out of 15000+50000
  36907 words of font info for 52 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
  52i,21n,70p,433b,1079s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1779,9 +1806,9 @@ Here is how much of TeX's memory you used:
 re/texmf-texlive/fonts/type1/public/amsfonts/symbols/msam7.pfb></usr/share/texm
 f-texlive/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texmf-texlive/fonts/t
 ype1/urw/helvetic/uhvr8a.pfb>
-Output written on AAUsidebartheme.pdf (63 pages, 1072075 bytes).
+Output written on AAUsidebartheme.pdf (66 pages, 1115081 bytes).
 PDF statistics:
- 4560 PDF objects out of 5155 (max. 8388607)
- 188 named destinations out of 1000 (max. 500000)
+ 4765 PDF objects out of 5155 (max. 8388607)
+ 194 named destinations out of 1000 (max. 500000)
  349 words of extra memory for PDF output out of 10000 (max. 10000000)
 

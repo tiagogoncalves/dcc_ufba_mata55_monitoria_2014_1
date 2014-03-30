@@ -1,14 +1,15 @@
 \documentclass[10pt]{beamer}
+
 \usepackage[brazilian]{babel}
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
 \usepackage{listings}
-\usetheme[left]{AAUsidebar}
-
+\usepackage{graphicx}
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
 \usepackage{helvet}
 
+\usetheme[left]{AAUsidebar}
 % colored hyperlinks
 \newcommand{\chref}[2]{%
   \href{#1}{{\usebeamercolor[bg]{AAUsidebar}#2}}%
@@ -125,70 +126,108 @@
 \begin{frame}
 \end{frame}{}
 %				Como instalar o WindowBuilder
+
+
 			
-\section{Nosso primeiro programa}
-\begin{frame}{Nosso primeiro programa}{}
+\section{Top-Level Containers}
+\begin{frame}{Top-Level Containers}{}
 \end{frame}{}
-\subsection{Top-Level Containers}
-\begin{frame}{Nosso primeiro programa}{Top-Level Containers}
+\begin{frame}{Top-Level Containers}
+\begin{itemize}
+\item JFrame
+\item JDialog
+\item JApplet
+\end{itemize}
 \end{frame}{}
-\subsubsection{JFrame}
-\begin{frame}{Nosso primeiro programa}{Top-Level Containers}{JFrame}
+
+\subsection{JFrame}
+\begin{frame}{Top-Level Containers}{JFrame}
+\lstinputlisting[language=Java]{codes/FirstProgram.java}
 \end{frame}{}
-\subsubsection{JDialog}
-\begin{frame}{Nosso primeiro programa}{Top-Level Containers}{JDialog}
+\begin{frame}{Top-Level Containers}{JFrame}
+\begin{figure}[!htb]
+    \centering
+	\includegraphics[0.5]{images/primeiro_programa}
+    \caption{Resultado do PrimeiroPrograma.java}
+    \label{figRotulo}
+  \end{figure}
 \end{frame}{}
-\subsubsection{JApplet}
+
+\subsection{JDialog}
+\begin{frame}{Nosso primeiro programa}{JDialog}
+\end{frame}{}
+
+\subsection{JApplet}
 \begin{frame}{Nosso primeiro programa}{Top-Level Containers}{JApplet}
 \end{frame}{}
+
+
 \section{Menu e ToolBar}
 \begin{frame}{Menu e ToolBar}{}
 \end{frame}{}
+
 \subsection{JToolBar}
 \begin{frame}{Menu e ToolBar}{JToolBar}
 \end{frame}{}
+
+
 \section{Layouts}
 \begin{frame}{Layouts}{}
 \end{frame}{}
+
 \subsection{FlowLayout}
 \begin{frame}{Layouts}{FlowLayout}
 \end{frame}{}
+
 \subsection{GridLayout}
 \begin{frame}{Layouts}{GridLayout}
 \end{frame}{}
+
 \subsection{BorderLayout}
 \begin{frame}{Layouts}{BorderLayout}
 \end{frame}{}
+
 \subsection{BoxLayout}
 \begin{frame}{Layouts}{BoxLayout}
 \end{frame}{}
+
+
 \section{Caixas de Diálogo}
 \begin{frame}{Caixas de Diálogo}{}
 \end{frame}{}
+
 \subsection{JDialog}
 \begin{frame}{Caixas de Diálogo}{JDialog}
 \end{frame}{}
 \subsection{Criando uma caixa de mensagem}
 \begin{frame}{Caixas de Diálogo}{Criando uma caixa de mensagem}
 \end{frame}{}
+
 \subsection{JFileChooser}
 \begin{frame}{Caixas de Diálogo}{JFileChooser}
 \end{frame}{}
+
 \subsection{JColorChooser}
 \begin{frame}{Caixas de Diálogo}{JColorChooser}
 \end{frame}{}
+
+
 \section{Componentes básicos}
 \begin{frame}{Componentes básicos}{}
 \end{frame}{}
+
 \subsection{Componentes de Texto}
 \begin{frame}{Componentes básicos}{Componentes de Texto}
 \end{frame}{}
+
 \subsubsection{TextField}
 \begin{frame}{Componentes básicos}{Componentes de Texto}{TextField}
 \end{frame}{}
+
 \subsubsection{FormattedTextField}
 \begin{frame}{Componentes básicos}{Componentes de Texto}{FormattedTextField}
 \end{frame}{}
+
 \subsubsection{PasswordField}
 \begin{frame}{Componentes básicos}{Componentes de Texto}{PasswordField}
 \end{frame}{}

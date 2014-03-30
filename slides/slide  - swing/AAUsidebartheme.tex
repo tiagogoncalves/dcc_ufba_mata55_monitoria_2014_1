@@ -2,6 +2,7 @@
 \usepackage[brazilian]{babel}
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
+\usepackage{listings}
 \usetheme[left]{AAUsidebar}
 
 \usepackage[utf8]{inputenc}
@@ -49,6 +50,31 @@
 %  \hspace{1cm}\pgfuseimage{titlepagelogo2}
 }
 
+% Formatação dos trechos em Java
+\definecolor{dkgreen}{rgb}{0,0.6,0}
+\definecolor{gray}{rgb}{0.5,0.5,0.5}
+\definecolor{mauve}{rgb}{0.58,0,0.82}
+
+\lstset{frame=tb,
+  language=Java,
+  aboveskip=3mm,
+  belowskip=3mm,
+  showstringspaces=false,
+  columns=flexible,
+  basicstyle={\small\ttfamily},
+  numbers=none,
+  numberstyle=\tiny\color{gray},
+  keywordstyle=\color{blue},
+  commentstyle=\color{dkgreen},
+  stringstyle=\color{mauve},
+  breaklines=true,
+  breakatwhitespace=true
+  tabsize=3
+}
+%Formatação dos trechos em java acabam aqui.
+
+
+
 \begin{document}
 % the titlepage
 {\aauwavesbg%
@@ -66,6 +92,10 @@
 \section{Introdução}
 \subsection{O que é Java Swing}
 \begin{frame}{Introdução}{O que é Java Swing}
+\begin{itemize}
+\item Swing é uma API Java para interfaces gráficas. 
+\item Faz parte da JFC (Java Foundation Classes) que encapsula um grupo de 'features' para GUIs (Graphical User Interfaces).
+\end{itemize}
 \end{frame}
 \subsection{Por que estudar Java Swing}
 \begin{frame}{Introdução}{Por que estudar Java Swing}
@@ -79,9 +109,14 @@
 %			OpenGL, WebGL
 \subsection{Como usar o Java Swing}
 \begin{frame}{Introdução}{Como usar o Java Swing}
+\begin{itemize}
+\item Editor convencional.
+\item Plugins Drop \& Drag.
+\end{itemize}
 \end{frame}{}
 \subsubsection{Codificando no Editor convencional}
 \begin{frame}{Introdução}{Como usar o Java Swing}{Codificando no Editor convencional}
+\lstinputlisting[language=Java]{codes/HelloWorldSwing.java}
 \end{frame}{}
 \subsubsection{Metodo Drop \& Drag I - NetBeans}
 \begin{frame}{Introdução}{Como usar o Java Swing}{Metodo Drop \& Drag I - NetBeans}

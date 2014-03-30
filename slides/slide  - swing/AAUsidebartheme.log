@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2014.2.27)  27 MAR 2014 02:53
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2014.2.27)  30 MAR 2014 15:44
 entering extended mode
  %&-line parsing enabled.
 **AAUsidebartheme.tex
@@ -885,6 +885,31 @@ Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
 File: t1enc.def 2005/09/27 v1.99g Standard LaTeX file
 LaTeX Font Info:    Redeclaring font encoding T1 on input line 43.
 ))
+(/usr/share/texmf-texlive/tex/latex/listings/listings.sty
+\lst@mode=\count151
+\lst@gtempboxa=\box53
+\lst@token=\toks43
+\lst@length=\count152
+\lst@currlwidth=\dimen179
+\lst@column=\count153
+\lst@pos=\count154
+\lst@lostspace=\dimen180
+\lst@width=\dimen181
+\lst@newlines=\count155
+\lst@lineno=\count156
+\lst@maxwidth=\dimen182
+
+(/usr/share/texmf-texlive/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2007/02/22 1.4 (Carsten Heinz)
+\c@lstnumber=\count157
+\lst@skipnumbers=\count158
+\lst@framebox=\box54
+)
+(/usr/share/texmf-texlive/tex/latex/listings/listings.cfg
+File: listings.cfg 2007/02/22 1.4 listings configuration
+))
+Package: listings 2007/02/22 1.4 (Carsten Heinz)
+
 (./beamerthemeAAUsidebar.sty
 Package: beamerthemeAAUsidebar 2013/05/26 v1.3.0 The AAU Sidebar Beamer Theme
 
@@ -894,15 +919,15 @@ Package: pgf 2008/01/15 v2.10 (rcs-revision 1.12)
 
 (/usr/share/texmf/tex/generic/pgf/modules/pgfmoduleshapes.code.tex
 File: pgfmoduleshapes.code.tex 2010/09/09  (rcs-revision 1.13)
-\pgfnodeparttextbox=\box53
+\pgfnodeparttextbox=\box55
 )
 (/usr/share/texmf/tex/generic/pgf/modules/pgfmoduleplot.code.tex
 File: pgfmoduleplot.code.tex 2010/10/22  (rcs-revision 1.8)
 )
 (/usr/share/texmf/tex/latex/pgf/compatibility/pgfcomp-version-0-65.sty
 Package: pgfcomp-version-0-65 2007/07/03 v2.10 (rcs-revision 1.7)
-\pgf@nodesepstart=\dimen179
-\pgf@nodesepend=\dimen180
+\pgf@nodesepstart=\dimen183
+\pgf@nodesepend=\dimen184
 )
 (/usr/share/texmf/tex/latex/pgf/compatibility/pgfcomp-version-1-18.sty
 Package: pgfcomp-version-1-18 2007/07/23 v2.10 (rcs-revision 1.1)
@@ -912,54 +937,54 @@ Package: pgfcomp-version-1-18 2007/07/23 v2.10 (rcs-revision 1.1)
 (/usr/share/texmf/tex/generic/pgf/utilities/pgfkeys.code.tex))
 (/usr/share/texmf/tex/generic/pgf/utilities/pgffor.code.tex
 Package: pgffor 2010/03/23 v2.10 (rcs-revision 1.18)
-\pgffor@iter=\dimen181
-\pgffor@skip=\dimen182
-\pgffor@stack=\toks43
-\pgffor@toks=\toks44
+\pgffor@iter=\dimen185
+\pgffor@skip=\dimen186
+\pgffor@stack=\toks44
+\pgffor@toks=\toks45
 ))
 (/usr/share/texmf/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
 Package: tikz 2010/10/13 v2.10 (rcs-revision 1.76)
 
 (/usr/share/texmf/tex/generic/pgf/libraries/pgflibraryplothandlers.code.tex
 File: pgflibraryplothandlers.code.tex 2010/05/31 v2.10 (rcs-revision 1.15)
-\pgf@plot@mark@count=\count151
-\pgfplotmarksize=\dimen183
+\pgf@plot@mark@count=\count159
+\pgfplotmarksize=\dimen187
 )
-\tikz@lastx=\dimen184
-\tikz@lasty=\dimen185
-\tikz@lastxsaved=\dimen186
-\tikz@lastysaved=\dimen187
-\tikzleveldistance=\dimen188
-\tikzsiblingdistance=\dimen189
-\tikz@figbox=\box54
-\tikz@tempbox=\box55
-\tikztreelevel=\count152
-\tikznumberofchildren=\count153
-\tikznumberofcurrentchild=\count154
-\tikz@fig@count=\count155
+\tikz@lastx=\dimen188
+\tikz@lasty=\dimen189
+\tikz@lastxsaved=\dimen190
+\tikz@lastysaved=\dimen191
+\tikzleveldistance=\dimen192
+\tikzsiblingdistance=\dimen193
+\tikz@figbox=\box56
+\tikz@tempbox=\box57
+\tikztreelevel=\count160
+\tikznumberofchildren=\count161
+\tikznumberofcurrentchild=\count162
+\tikz@fig@count=\count163
 
 (/usr/share/texmf/tex/generic/pgf/modules/pgfmodulematrix.code.tex
 File: pgfmodulematrix.code.tex 2010/08/24  (rcs-revision 1.4)
-\pgfmatrixcurrentrow=\count156
-\pgfmatrixcurrentcolumn=\count157
-\pgf@matrix@numberofcolumns=\count158
+\pgfmatrixcurrentrow=\count164
+\pgfmatrixcurrentcolumn=\count165
+\pgf@matrix@numberofcolumns=\count166
 )
-\tikz@expandcount=\count159
+\tikz@expandcount=\count167
 
 (/usr/share/texmf/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarytopat
 hs.code.tex
 File: tikzlibrarytopaths.code.tex 2008/06/17 v2.10 (rcs-revision 1.2)
 ))) (/usr/share/texmf-texlive/tex/latex/tools/calc.sty
 Package: calc 2007/08/22 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count160
-\calc@Bcount=\count161
-\calc@Adimen=\dimen190
-\calc@Bdimen=\dimen191
+\calc@Acount=\count168
+\calc@Bcount=\count169
+\calc@Adimen=\dimen194
+\calc@Bdimen=\dimen195
 \calc@Askip=\skip57
 \calc@Bskip=\skip58
 LaTeX Info: Redefining \setlength on input line 76.
 LaTeX Info: Redefining \addtolength on input line 77.
-\calc@Ccount=\count162
+\calc@Ccount=\count170
 \calc@Cskip=\skip59
 )
 (./beamerinnerthemeAAUsidebar.sty
@@ -989,26 +1014,29 @@ Package: helvet 2005/04/12 PSNFSS-v9.2a (WaS)
 )
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\\' on input line 25.
+(hyperref)                removing `\\' on input line 26.
 
+(/usr/share/texmf-texlive/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2004/09/05 1.3 listings language file
+)
 (./AAUsidebartheme.aux)
 \openout1 = `AAUsidebartheme.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 52.
-LaTeX Font Info:    ... okay on input line 52.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 52.
-LaTeX Font Info:    ... okay on input line 52.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 52.
-LaTeX Font Info:    ... okay on input line 52.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 52.
-LaTeX Font Info:    ... okay on input line 52.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 52.
-LaTeX Font Info:    ... okay on input line 52.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 52.
-LaTeX Font Info:    ... okay on input line 52.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 52.
-LaTeX Font Info:    ... okay on input line 52.
-LaTeX Font Info:    Try loading font information for T1+phv on input line 52.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Try loading font information for T1+phv on input line 78.
  (/usr/share/texmf-texlive/tex/latex/psnfss/t1phv.fd
 File: t1phv.fd 2001/06/04 scalable font definitions for T1/phv.
 )
@@ -1055,18 +1083,18 @@ driver: pdftex
 -----------------------
 (/usr/share/texmf-texlive/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count163
-\scratchdimen=\dimen192
-\scratchbox=\box56
-\nofMPsegments=\count164
-\nofMParguments=\count165
-\everyMPshowfont=\toks45
-\MPscratchCnt=\count166
-\MPscratchDim=\dimen193
-\MPnumerator=\count167
-\everyMPtoPDFconversion=\toks46
+\scratchcounter=\count171
+\scratchdimen=\dimen196
+\scratchbox=\box58
+\nofMPsegments=\count172
+\nofMParguments=\count173
+\everyMPshowfont=\toks46
+\MPscratchCnt=\count174
+\MPscratchDim=\dimen197
+\MPnumerator=\count175
+\everyMPtoPDFconversion=\toks47
 ) ABD: EveryShipout initializing macros
-Package hyperref Info: Link coloring OFF on input line 52.
+Package hyperref Info: Link coloring OFF on input line 78.
 
 (/usr/share/texmf-texlive/tex/latex/hyperref/nameref.sty
 Package: nameref 2007/05/29 v2.31 Cross-referencing by name of section
@@ -1074,58 +1102,58 @@ Package: nameref 2007/05/29 v2.31 Cross-referencing by name of section
 (/usr/share/texmf-texlive/tex/latex/oberdiek/refcount.sty
 Package: refcount 2008/08/11 v3.1 Data extraction from references (HO)
 )
-\c@section@level=\count168
+\c@section@level=\count176
 )
-LaTeX Info: Redefining \ref on input line 52.
-LaTeX Info: Redefining \pageref on input line 52.
+LaTeX Info: Redefining \ref on input line 78.
+LaTeX Info: Redefining \pageref on input line 78.
 
 (./AAUsidebartheme.out) (./AAUsidebartheme.out)
 \@outlinefile=\write5
 \openout5 = `AAUsidebartheme.out'.
 
-\AtBeginShipoutBox=\box57
+\AtBeginShipoutBox=\box59
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 52.
+(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 78.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 52.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 78.
 \symnumbers=\mathgroup6
 \sympureletters=\mathgroup7
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  OT1/cmss/m/n --> T1/cmr/m/n on input line 52.
-LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 52.
+(Font)                  OT1/cmss/m/n --> T1/cmr/m/n on input line 78.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 78.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> T1/phv/bx/n on input line 52.
+(Font)                  OT1/cmr/bx/n --> T1/phv/bx/n on input line 78.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/cmr/bx/n --> T1/phv/bx/n on input line 52.
-LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 52.
+(Font)                  OT1/cmr/bx/n --> T1/phv/bx/n on input line 78.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 78.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> T1/phv/m/n on input line 52.
+(Font)                  OT1/cmss/m/n --> T1/phv/m/n on input line 78.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> T1/phv/m/n on input line 52.
-LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 52.
+(Font)                  OT1/cmss/bx/n --> T1/phv/m/n on input line 78.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 78.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> T1/phv/m/it on input line 52.
+(Font)                  OT1/cmr/m/it --> T1/phv/m/it on input line 78.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> T1/phv/m/it on input line 52.
-LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 52.
+(Font)                  OT1/cmr/bx/it --> T1/phv/m/it on input line 78.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 78.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> T1/cmtt/m/n on input line 52.
+(Font)                  OT1/cmtt/m/n --> T1/cmtt/m/n on input line 78.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> T1/cmtt/m/n on input line 52.
+(Font)                  OT1/cmtt/m/n --> T1/cmtt/m/n on input line 78.
 LaTeX Font Info:    Overwriting symbol font `numbers' in version `bold'
-(Font)                  T1/phv/m/n --> T1/phv/bx/n on input line 52.
+(Font)                  T1/phv/m/n --> T1/phv/bx/n on input line 78.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  T1/phv/m/it --> T1/phv/bx/it on input line 52.
+(Font)                  T1/phv/m/it --> T1/phv/bx/it on input line 78.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
-(Font)                  OT1/cmss/bx/n --> T1/cmr/bx/n on input line 52.
+(Font)                  OT1/cmss/bx/n --> T1/cmr/bx/n on input line 78.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  T1/phv/bx/n --> T1/phv/bx/n on input line 52.
+(Font)                  T1/phv/bx/n --> T1/phv/bx/n on input line 78.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  T1/phv/m/n --> T1/phv/bx/n on input line 52.
+(Font)                  T1/phv/m/n --> T1/phv/bx/n on input line 78.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  T1/phv/m/it --> T1/phv/bx/it on input line 52.
+(Font)                  T1/phv/m/it --> T1/phv/bx/it on input line 78.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  T1/cmtt/m/n --> T1/cmtt/bx/n on input line 52.
+(Font)                  T1/cmtt/m/n --> T1/cmtt/bx/n on input line 78.
 
 (/usr/share/texmf/tex/latex/beamer/base/translator/dicts/translator-basic-dicti
 onary/translator-basic-dictionary-English.dict
@@ -1150,35 +1178,37 @@ Dictionary: translator-numbers-dictionary, Language: English
 (/usr/share/texmf/tex/latex/beamer/base/translator/dicts/translator-theorem-dic
 tionary/translator-theorem-dictionary-English.dict
 Dictionary: translator-theorem-dictionary, Language: English 
-) (./AAUsidebartheme.nav)
-<AAUgraphics/aau_logo_new_circle.png, id=160, 89.133pt x 88.33pt>
+)
+\c@lstlisting=\count177
+ (./AAUsidebartheme.nav)
+<AAUgraphics/aau_logo_new_circle.png, id=28, 89.133pt x 88.33pt>
 File: AAUgraphics/aau_logo_new_circle.png Graphic file (type png)
 
 <use AAUgraphics/aau_logo_new_circle.png>
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <14.4> not available
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 57.
-LaTeX Font Info:    Try loading font information for U+msa on input line 57.
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 83.
+LaTeX Font Info:    Try loading font information for U+msa on input line 83.
 
 (/usr/share/texmf-texlive/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2009/06/22 v3.00 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 57.
+LaTeX Font Info:    Try loading font information for U+msb on input line 83.
 
 (/usr/share/texmf-texlive/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2009/06/22 v3.00 AMS symbols B
 )
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <10> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 57.
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 83.
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <7> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 57.
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 83.
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <5> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 57.
-LaTeX Font Info:    Try loading font information for T1+cmtt on input line 57.
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 83.
+LaTeX Font Info:    Try loading font information for T1+cmtt on input line 83.
 
 (/usr/share/texmf-texlive/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
-<AAUgraphics/aau_waves.pdf, id=162, 845.1575pt x 598.235pt>
+<AAUgraphics/aau_waves.pdf, id=30, 845.1575pt x 598.235pt>
 File: AAUgraphics/aau_waves.pdf Graphic file (type pdf)
 
 <use AAUgraphics/aau_waves.pdf> [1
@@ -1187,9 +1217,9 @@ File: AAUgraphics/aau_waves.pdf Graphic file (type pdf)
 f, page is rotated 270 degrees> <./AAUgraphics/aau_logo_new.png>] (./AAUsidebar
 theme.toc)
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <14.4> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 63.
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 89.
 
-<AAUgraphics/logodcc.png, id=299, 200.75pt x 159.59625pt>
+<AAUgraphics/logodcc.png, id=167, 200.75pt x 159.59625pt>
 File: AAUgraphics/logodcc.png Graphic file (type png)
 
 <use AAUgraphics/logodcc.png>
@@ -1265,9 +1295,17 @@ File: AAUgraphics/aau_logo_new_circle.png Graphic file (type png)
 
 <use AAUgraphics/aau_logo_new_circle.png> [9
 
-]
+] (./codes/HelloWorldSwing.java
+Overfull \hbox (5.53809pt too wide) in paragraph at lines 7--9
+[][][][][][][][][][][][]  
+ []
+
+)
+Overfull \vbox (69.22499pt too high) detected at line 120
+ []
+
 File: AAUgraphics/logodcc.png Graphic file (type png)
- <use AAUgraphics/logodcc.png>
+<use AAUgraphics/logodcc.png>
 Overfull \vbox (356.08028pt too high) has occurred while \output is active []
 
 File: AAUgraphics/aau_logo_new_circle.png Graphic file (type png)
@@ -1770,7 +1808,7 @@ File: AAUgraphics/aau_logo_new_circle.png Graphic file (type png)
 <use AAUgraphics/aau_logo_new_circle.png> [65
 
 ]
-Overfull \hbox (15.5899pt too wide) in paragraph at lines 264--264
+Overfull \hbox (15.5899pt too wide) in paragraph at lines 299--299
 \T1/phv/m/n/10 http://docs.oracle.com/javase/7/docs/api/javax/swing/package- 
  []
 
@@ -1794,21 +1832,22 @@ File: AAUgraphics/aau_logo_new_circle.png Graphic file (type png)
 
  (./AAUsidebartheme.aux) ) 
 Here is how much of TeX's memory you used:
- 18339 strings out of 495061
- 343541 string characters out of 1182621
- 424860 words of memory out of 3000000
- 20829 multiletter control sequences out of 15000+50000
- 36907 words of font info for 52 fonts, out of 3000000 for 9000
+ 20027 strings out of 495061
+ 365517 string characters out of 1182621
+ 494754 words of memory out of 3000000
+ 22495 multiletter control sequences out of 15000+50000
+ 38956 words of font info for 54 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
- 52i,21n,70p,433b,1079s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 52i,21n,70p,433b,1277s stack positions out of 5000i,500n,10000p,200000b,50000s
  </home/flavio/.texmf-var/fonts/pk/ljfour/jknappen/ec
-/ectt1000.600pk>{/usr/share/texmf-texlive/fonts/enc/dvips/base/8r.enc}</usr/sha
-re/texmf-texlive/fonts/type1/public/amsfonts/symbols/msam7.pfb></usr/share/texm
-f-texlive/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texmf-texlive/fonts/t
-ype1/urw/helvetic/uhvr8a.pfb>
-Output written on AAUsidebartheme.pdf (66 pages, 1115081 bytes).
+/ectt0900.600pk> </home/flavio/.texmf-var/fonts/pk/ljfour/jknappen/ec/ectt1000.
+600pk>{/usr/share/texmf-texlive/fonts/enc/dvips/base/8r.enc}</usr/share/texmf-t
+exlive/fonts/type1/public/amsfonts/symbols/msam7.pfb></usr/share/texmf-texlive/
+fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texmf-texlive/fonts/type1/urw/h
+elvetic/uhvr8a.pfb>
+Output written on AAUsidebartheme.pdf (66 pages, 1124097 bytes).
 PDF statistics:
- 4765 PDF objects out of 5155 (max. 8388607)
+ 4725 PDF objects out of 5155 (max. 8388607)
  194 named destinations out of 1000 (max. 500000)
- 349 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 85 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -101,27 +101,32 @@
 \end{frame}
 \subsection{Por que estudar Java Swing}
 \begin{frame}{Introdução}{Por que estudar Java Swing}
+[enumerar vantagens]
 \end{frame}
 \subsubsection{Swing vs. others}
-\begin{frame}{Introdução}{Por que estudar Java Swing}{Swing vs. others}
+\begin{frame}{Introdução}{Por que estudar Java Swing}{Swing vs. outros}
+\begin{itemize}
+\item Aprendendo Swing aprende todos
+\item EXT-GWT, Android, JSF + PrimeFaces, etc.
+\end{itemize}
 \end{frame}
-%			EXT-GWT
-%			Android
-%			JSF + PrimeFaces
-%			OpenGL, WebGL
+%	
 \subsection{Como usar o Java Swing}
 \begin{frame}{Introdução}{Como usar o Java Swing}
 \begin{itemize}
-\item Editor convencional.
-\item Plugins Drop \& Drag.
+\item Editor convencional
+\item Plugin Window Builder
 \end{itemize}
 \end{frame}{}
 \subsubsection{Codificando no Editor convencional}
 \begin{frame}[allowframebreaks]{Introdução}{Como usar o Java Swing}{Codificando no Editor convencional}
-\lstinputlisting[language=Java]{codes/HelloWorldSwing.java}
+\lstinputlisting[language=Java,linerange=1-34]{codes/HelloWorldSwing.java}
 \end{frame}{}
 
 \begin{frame}{Introdução}{Como usar o Java Swing}
+\begin{itemize}
+\item Ao executar como projeto \textbf{Java} normal,o resultado será:
+\end{itemize}
   \begin{figure}[!htb]
     \centering
     \includegraphics[scale=0.5]{hello_world}
@@ -232,6 +237,18 @@ Clique com o botão direito na classe PrimeiroPrograma.java . Selecione \textbf{
 
 \begin{frame}{Aba Design do Editor do Window Builder}
 \begin{itemize}
+\item Paleta com os principais componentes do Swing.
+\end{itemize}
+  \begin{figure}[!htb]
+    \centering
+    \includegraphics[scale=.25]{windows_builder_perspective_part2}
+    \caption{Aba Design}
+    \label{figRotulo}
+  \end{figure}
+\end{frame}{}
+
+\begin{frame}{Aba Design do Editor do Window Builder}
+\begin{itemize}
 \item \textbf{Structure} - estrutura da tela com seus componentes.
 \item \textbf{Properties} - propriedades do componente selecionado.
 \end{itemize}
@@ -257,14 +274,18 @@ Selecione a janela e insira em \textbf{Title} na aba \textbf{Properties}.
 
 \begin{frame}{Construindo a janela}
 O equivalente em código seria.
-\lstinputlisting[language=Java,linerange=18-19]{codes/PrimeiroPrograma.java}
+\lstinputlisting[language=Java,linerange=24-25]{codes/PrimeiroPrograma.java}
 \end{frame}{}
 
-\begin{frame}{Construindo a janela - \textbf{JPanel}}
-%TODO Definição
+\begin{frame}{Construindo uma tela - \textbf{JPanel}}
+\begin{itemize}
+\item É um \textbf{simples} \textbf{container} (recipiente) \textbf{genérico}.
+\item É como se fosse um receptáculo onde os componentes podem ser agrupados.
+\item Pode ter seu próprio \textbf{layout}, portanto suas próprias regras.
+\end{itemize}
 \end{frame}{}
 
-\begin{frame}{Construindo a janela - \textbf{JPanel}}
+\begin{frame}{Construindo uma tela - \textbf{JPanel}}
 \begin{itemize}
 \item O Window Builder utiliza o método \textbf{Drag \& Drop} (clica e solta)
 \item As áreas verdes são os locais onde o componente pode ser inserido
@@ -273,23 +294,26 @@ O equivalente em código seria.
 \end{itemize}
 \begin{figure}[!htb]
     \centering
-    \includegraphics[scale=.4]{jpanel}
+    \includegraphics[scale=.35]{jpanel}
     \caption{JPanel}
     \label{figRotulo}
   \end{figure}
 \end{frame}{}
 
-\begin{frame}{Construindo a janela - \textbf{JPanel}}
+\begin{frame}{Construindo uma tela - \textbf{JPanel}}
 Em código:
 \lstinputlisting[language=Java]{codes/PrimeiroProgramaPura.java}
 \end{frame}{}
 
-\begin{frame}{Construindo a janela - \textbf{JLabel}}
-%TODO Definição
+\begin{frame}{Construindo uma tela - \textbf{JLabel}}
+\begin{itemize}
+\item É um rótulo.
+\item Pode exibir um texto, uma imagem ou ambos.
+\end{itemize}
 \end{frame}{}
 
 
-\begin{frame}{Construindo a janela - \textbf{JLabel}}
+\begin{frame}{Construindo uma tela - \textbf{JLabel}}
 \begin{itemize}
 \item Ao inserir o JLabel já defina o nome!
 \end{itemize}
@@ -301,11 +325,13 @@ Em código:
   \end{figure}
 \end{frame}{}
 
-\begin{frame}{Construindo a janela - \textbf{JTextField}}
-%TODO Definição
+\begin{frame}{Construindo uma tela - \textbf{JTextField}}
+\begin{itemize}
+\item É um componente que nos permite a edição de um simples linha de texto
+\end{itemize}
 \end{frame}{}
 
-\begin{frame}{Construindo a janela - \textbf{JTextField}}
+\begin{frame}{Construindo uma tela - \textbf{JTextField}}
 \begin{figure}[!htb]
     \centering
     \includegraphics[scale=.4]{jtextfield}
@@ -314,7 +340,7 @@ Em código:
   \end{figure}
 \end{frame}{}
 
-\begin{frame}{Construindo a janela - Alinhando os componentes}
+\begin{frame}{Construindo uma tela - Alinhando os componentes}
 \begin{itemize}
 \item Os tipos de alinhamento disponíveis são : \textbf{LEFT}, \textbf{RIGHT}, \textbf{CENTER}, \textbf{LEADING}(bottom) e \textbf{TRAILING} (top)
 \end{itemize}
@@ -326,11 +352,210 @@ Em código:
   \end{figure}
 \end{frame}{}
 
-\begin{frame}{Construindo a janela - \textbf{Alinhamento}}
+\begin{frame}{Construindo uma tela - \textbf{Alinhamento}}
 Em código:
-\lstinputlisting[language=Java,linerange=28-38]{codes/PrimeiroPrograma.java}
+\lstinputlisting[language=Java,linerange=34-37]{codes/PrimeiroPrograma.java}
 \end{frame}{}
 
+\begin{frame}{Construindo uma tela - \textbf{JPasswordField}}
+\begin{itemize}
+\item Um JTextField não é o componente mais adequado para um campo de senha, por exemplo.
+\item Para isso existe o componente JPasswordField.
+\end{itemize}
+\end{frame}{}
+
+\begin{frame}{Construindo uma tela - \textbf{JPasswordField}} 
+\begin{figure}[!htb]
+    \centering
+    \includegraphics[scale=.3]{jpassword}
+    \caption{JPassword}
+    \label{figRotulo}
+  \end{figure}
+\end{frame}{}
+
+\begin{frame}{Construindo uma tela - \textbf{Simulação}} 
+\begin{itemize}
+\item É possível simular o funcionamento da tela antes mesmo de executar o código.
+\end{itemize}
+\begin{figure}[!htb]
+    \centering
+    \includegraphics[scale=.3]{executando_atualizando}
+    \caption{Simulando}
+    \label{figRotulo}
+  \end{figure}
+\end{frame}{}
+
+\begin{frame}{Construindo uma tela - Simulação do \textbf{JPasswordField}} 
+\begin{figure}[!htb]
+    \centering
+    \includegraphics[scale=.3]{jpassword_simulacao}
+    \caption{Simulando o uso do JPassword}
+    \label{figRotulo}
+  \end{figure}
+\end{frame}{}
+
+\begin{frame}{Construindo uma tela - \textbf{JPasswordField}}
+\begin{itemize}
+\item A implementação do JPasswordField é semelhante ao do JTextField.
+\end{itemize}
+\lstinputlisting[language=Java,linerange=49-51]{codes/PrimeiroPrograma.java}
+\end{frame}{}
+
+\begin{frame}{Construindo uma tela - \textbf{JTextArea}}
+\begin{itemize}
+\item É uma área multilinha que mostra um texto.
+\item Dentro de um \textbf{JScroolPane} um texto relativamente grande pode caber em uma tela pequena.
+\end{itemize}
+\end{frame}{}
+
+\begin{frame}{Construindo uma tela - \textbf{JTextArea}}
+\begin{itemize}
+\item Foi adicionado um outro \textbf{JPane} simples que abrange todo o resto da tela.
+\item Dentro deste \textbf{JPane} foi criado o \textbf{JLabel} Descrição.
+\item Dentro deste \textbf{JPane} foi adicionado um \textbf{JScrollPane}.
+\item Finalmente dentro deste \textbf{JScrollPane} foi adicionado o \textbf{JTextArea}
+
+\end{itemize}
+\begin{figure}[!htb]
+    \centering
+    \includegraphics[scale=.3]{jtextarea_1}
+    \caption{Strutura da tela}
+    \label{figRotulo}
+  \end{figure}
+\end{frame}{}
+
+\begin{frame}{Construindo uma tela - \textbf{JTextArea}}
+\begin{itemize}
+\item Em \textbf{Properties} > \textbf{columns} foi definida a 'largura' do \textbf{JTextArea}.
+\item Em \textbf{Properties} > \textbf{lineWrap} foi definida a quebra de linha do texto.
+\end{itemize}
+\begin{figure}[!htb]
+    \centering
+    \includegraphics[scale=.3]{jtextarea_2}
+    \caption{Propriedades do JTextArea}
+    \label{figRotulo}
+  \end{figure}
+\end{frame}{}
+
+
+\begin{frame}{Construindo uma tela - \textbf{JTextArea}}
+\begin{itemize}
+\item O \textbf{JScrollPane} garante que em caso de textos extensos consiga-se visualizá-lo completamente.
+\end{itemize}
+\begin{figure}[!htb]
+    \centering
+    \includegraphics[scale=.4]{jtextarea_simulacao}
+    \caption{JTextArea}
+    \label{figRotulo}
+  \end{figure}
+\end{frame}{}
+
+
+
+\begin{frame}{Construindo uma tela - \textbf{JTextArea}}
+Em código seria:
+\lstinputlisting[language=Java,linerange=70-78]{codes/PrimeiroPrograma.java}
+\end{frame}{}
+
+\subsubsection{Botões}
+\begin{frame}{Construindo uma tela - \textbf{JButton}}
+\begin{itemize}
+\item Um \textbf{JButton} é um botão convencional.
+\item Podem ser controlados por \textbf{Eventos}.
+\end{itemize}
+\end{frame}{}
+
+\begin{frame}{Construindo uma tela - \textbf{JButton}}
+\begin{figure}[!htb]
+    \centering
+    \includegraphics[scale=.4]{jbutton}
+    \caption{JButton}
+    \label{figRotulo}
+  \end{figure}
+\end{frame}{}
+
+\begin{frame}{Construindo uma tela - \textbf{JButton}}
+\lstinputlisting[language=Java,linerange=83-84]{codes/PrimeiroPrograma.java}
+\end{frame}{}
+
+
+
+\begin{frame}{Construindo uma tela - \textbf{JCheckBox}}
+\begin{itemize}
+\item É uma caixa de seleção.
+\item Um \textbf{JCheckBox} pode ser marcado ou desmarcado.
+\end{itemize}
+\end{frame}{}
+
+\begin{frame}{Construindo uma tela - \textbf{JCheckBox}}
+\begin{figure}[!htb]
+    \centering
+    \includegraphics[scale=.4]{jcheckbox}
+    \caption{JCheckBox}
+    \label{figRotulo}
+  \end{figure}
+\end{frame}{}
+
+\begin{frame}{Construindo uma tela - \textbf{JCheckBox}}
+\lstinputlisting[language=Java,linerange=64-68]{codes/PrimeiroProgramaJCheckBox.java}
+\end{frame}{}
+
+
+\begin{frame}{Construindo uma tela - \textbf{JCheckBox}}
+\begin{itemize}
+\item Exemplo de seleção do sexo do usuário.
+\end{itemize}
+\begin{figure}[!htb]
+    \centering
+    \includegraphics[scale=.4]{jcheckbox-simulacao}
+    \caption{Simulação do JCheckBox}
+    \label{figRotulo}
+  \end{figure}
+\end{frame}{}
+
+
+\begin{frame}{Construindo uma tela - \textbf{JCheckBox}}
+\begin{itemize}
+\item Exemplo de seleção do sexo do usuário.
+\item Existe um problema em utilizar \textbf{JCheckBox} nesse exemplo: \textbf{É possível selecionar mais de uma caixa de seleção}.
+\item A solução é usar \textbf{JRadioButton}.
+\end{itemize}
+\begin{figure}[!htb]
+    \centering
+    \includegraphics[scale=.4]{jcheckbox-simulacao-2}
+    \caption{Simulação do JCheckBox}
+    \label{figRotulo}
+  \end{figure}
+\end{frame}{}
+
+
+\begin{frame}{Construindo uma tela - \textbf{JRadioButton}}
+[O objetivo é seguir a mesma lógica acima]
+\end{frame}{}
+
+
+\begin{frame}{Construindo uma tela - \textbf{JMenuItem}}
+[O objetivo é seguir a mesma lógica acima]
+\end{frame}{}
+
+\begin{frame}{Construindo uma tela - \textbf{JToggleButton}}
+[O objetivo é seguir a mesma lógica acima]
+\end{frame}{}
+
+\subsection{Eventos}
+\begin{frame}{Eventos}{ActionEvent}
+[Inserir eventos nos elementos que já existem na tela]
+\end{frame}{}
+
+\subsection{Javadoc}
+\begin{frame}{Javadoc}{Explorando o javadoc}
+[Mostrar o javadoc]
+\end{frame}{}
+
+\subsection{Exemplos}
+\begin{frame}{Exemplos}{Exemplos}
+[Mostrar a lista de componentes e applets do site oficial]
+\end{frame}{}
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -338,11 +563,11 @@ Em código:
 \begin{frame}{Referências}{}
 \begin{itemize}
 \item Window Builder - https://www.eclipse.org/windowbuilder/
-\item Swing tutorial - http://www.tutorialspoint.com/swing/
-\item Swing tutorial(verboso) - http://www.wikihow.com/Create-a-Swing-GUI-in-Java
-\item Swing tuto mais completo - http://zetcode.com/tutorials/javaswingtutorial/
-\item Swing oficial - http://docs.oracle.com/javase/tutorial/uiswing/components/
-\item Swing oficial - http://docs.oracle.com/javase/tutorial/uiswing/
+\item Swing tutorial I - http://www.tutorialspoint.com/swing/
+\item Swing tutorial II - http://www.wikihow.com/Create-a-Swing-GUI-in-Java
+\item Swing tutorial III - http://zetcode.com/tutorials/javaswingtutorial/
+\item Componentes do Swing  - http://docs.oracle.com/javase/tutorial/uiswing/components/
+\item Página oficial do Swing - http://docs.oracle.com/javase/tutorial/uiswing/
 \item Swing javadoc - http://docs.oracle.com/javase/7/docs/api/javax/swing/package-summary.html
 \end{itemize}
 \end{frame}

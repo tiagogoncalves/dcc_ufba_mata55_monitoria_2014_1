@@ -1,0 +1,6 @@
+package br.ufba.mata55;
+
+import javax.swing.JFrame;
+
+public class PrimeiroProgramaPura extends JFrame {
+}

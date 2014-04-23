@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2014.4.22)  22 APR 2014 13:08
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2014.4.22)  23 APR 2014 15:42
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -978,7 +978,53 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 
 (/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2004/09/05 1.3 listings language file
-) (./Swing.aux)
+) (./Swing.aux
+
+LaTeX Warning: Label `figRotulo' multiply defined.
+
+
+LaTeX Warning: Label `figRotulo' multiply defined.
+
+
+LaTeX Warning: Label `figRotulo' multiply defined.
+
+
+LaTeX Warning: Label `figRotulo' multiply defined.
+
+
+LaTeX Warning: Label `figRotulo' multiply defined.
+
+
+LaTeX Warning: Label `figRotulo' multiply defined.
+
+
+LaTeX Warning: Label `figRotulo' multiply defined.
+
+
+LaTeX Warning: Label `figRotulo' multiply defined.
+
+
+LaTeX Warning: Label `figRotulo' multiply defined.
+
+
+LaTeX Warning: Label `figRotulo' multiply defined.
+
+
+LaTeX Warning: Label `figRotulo' multiply defined.
+
+
+LaTeX Warning: Label `figRotulo' multiply defined.
+
+
+LaTeX Warning: Label `figRotulo' multiply defined.
+
+
+LaTeX Warning: Label `figRotulo' multiply defined.
+
+
+LaTeX Warning: Label `figRotulo' multiply defined.
+
+)
 \openout1 = `Swing.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 80.
@@ -996,8 +1042,7 @@ LaTeX Font Info:    ... okay on input line 80.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 80.
 LaTeX Font Info:    ... okay on input line 80.
 LaTeX Font Info:    Try loading font information for T1+phv on input line 80.
-
-(/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1phv.fd
+ (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1phv.fd
 File: t1phv.fd 2001/06/04 scalable font definitions for T1/phv.
 )
 *geometry* driver: auto-detecting
@@ -1196,147 +1241,280 @@ File: t1cmtt.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 
 ] [3
 
-
 ] [4
-
 
 ] [5
 
-
 ] [6
 
-] [7
+] (./codes/HelloWorldSwing.java) [7
 
 ] [8
 
+
 ] [9
 
-] (./codes/HelloWorldSwing.java)
-Overfull \vbox (56.63318pt too high) detected at line 122
+
+]
+<images/hello_world.png, id=304, 301.125pt x 200.75pt>
+File: images/hello_world.png Graphic file (type png)
+
+<use images/hello_world.png>
+Package pdftex.def Info: images/hello_world.png used on input line 131.
+(pdftex.def)             Requested size: 150.56212pt x 100.37474pt.
+ [10
+
+ <./images/hello_world.png>]
+<images/criando_projeto_swing.png, id=333, 692.5875pt x 755.82375pt>
+File: images/criando_projeto_swing.png Graphic file (type png)
+
+<use images/criando_projeto_swing.png>
+Package pdftex.def Info: images/criando_projeto_swing.png used on input line 14
+1.
+(pdftex.def)             Requested size: 173.14644pt x 188.95547pt.
+pdfTeX warning (ext4): destination with the same identifier (name{figRotulo}) h
+as been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.141 \end{frame}
+                 {}
+Overfull \vbox (5.71951pt too high) detected at line 141
  []
 
-[10
+[11
 
-] [11
+ <./images/criando_projeto_swing.png>]
+<images/criando_primeiro_programa.png, id=362, 626.34pt x 689.57625pt>
+File: images/criando_primeiro_programa.png Graphic file (type png)
 
-] [12
+<use images/criando_primeiro_programa.png>
+Package pdftex.def Info: images/criando_primeiro_programa.png used on input lin
+e 150.
+(pdftex.def)             Requested size: 156.58461pt x 172.39363pt.
+pdfTeX warning (ext4): destination with the same identifier (name{figRotulo}) h
+as been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.150 \end{frame}
+                 {} [12
 
-] [13
+ <./images/criando_primeiro_programa.png>]
+LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <10> not available
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 161.
 
-] [14
+<images/pag_principal_window_builder.png, id=389, 806.212pt x 433.62pt>
+File: images/pag_principal_window_builder.png Graphic file (type png)
 
-] (./codes/FirstProgram.java)
-Overfull \vbox (77.63318pt too high) detected at line 147
+<use images/pag_principal_window_builder.png>
+Package pdftex.def Info: images/pag_principal_window_builder.png used on input 
+line 161.
+(pdftex.def)             Requested size: 322.47908pt x 173.44492pt.
+pdfTeX warning (ext4): destination with the same identifier (name{figRotulo}) h
+as been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.161 \end{frame}
+                 {} [13
+
+ <./images/pag_principal_window_builder.png>]
+<images/instalando_window_builder_1.png, id=418, 770.88pt x 237.88875pt>
+File: images/instalando_window_builder_1.png Graphic file (type png)
+
+<use images/instalando_window_builder_1.png>
+Package pdftex.def Info: images/instalando_window_builder_1.png used on input l
+ine 172.
+(pdftex.def)             Requested size: 308.34654pt x 95.15381pt.
+pdfTeX warning (ext4): destination with the same identifier (name{figRotulo}) h
+as been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.172 \end{frame}
+                 {} [14
+
+ <./images/instalando_window_builder_1.png (PNG copy)>]
+<images/window_builder_add.png, id=446, 700.216pt x 580.569pt>
+File: images/window_builder_add.png Graphic file (type png)
+
+<use images/window_builder_add.png>
+Package pdftex.def Info: images/window_builder_add.png used on input line 182.
+(pdftex.def)             Requested size: 210.06642pt x 174.17204pt.
+pdfTeX warning (ext4): destination with the same identifier (name{figRotulo}) h
+as been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.182 \end{frame}
+                 {} [15
+
+ <./images/window_builder_add.png>]
+<images/window_builder_url.png, id=475, 556.0775pt x 182.6825pt>
+File: images/window_builder_url.png Graphic file (type png)
+
+<use images/window_builder_url.png>
+Package pdftex.def Info: images/window_builder_url.png used on input line 195.
+(pdftex.def)             Requested size: 166.82454pt x 54.80516pt.
+pdfTeX warning (ext4): destination with the same identifier (name{figRotulo}) h
+as been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.195 \end{frame}
+                 {} [16
+
+ <./images/window_builder_url.png>]
+<images/window_builder_perspective.png, id=502, 588.69937pt x 254.45062pt>
+File: images/window_builder_perspective.png Graphic file (type png)
+
+<use images/window_builder_perspective.png>
+Package pdftex.def Info: images/window_builder_perspective.png used on input li
+ne 206.
+(pdftex.def)             Requested size: 235.47557pt x 101.77844pt.
+pdfTeX warning (ext4): destination with the same identifier (name{figRotulo}) h
+as been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.206 \end{frame}
+                 {} [17
+
+ <./images/window_builder_perspective.png>]
+<images/windows_builder_perspective_source.png, id=530, 622.325pt x 541.222pt>
+File: images/windows_builder_perspective_source.png Graphic file (type png)
+
+<use images/windows_builder_perspective_source.png>
+Package pdftex.def Info: images/windows_builder_perspective_source.png used on 
+input line 219.
+(pdftex.def)             Requested size: 186.69893pt x 162.36784pt.
+pdfTeX warning (ext4): destination with the same identifier (name{figRotulo}) h
+as been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.219 \end{frame}
+                 {} [18
+
+ <./images/windows_builder_perspective_source.png>]
+<images/windows_builder_perspective_part1.png, id=558, 956.373pt x 681.747pt>
+File: images/windows_builder_perspective_part1.png Graphic file (type png)
+
+<use images/windows_builder_perspective_part1.png>
+Package pdftex.def Info: images/windows_builder_perspective_part1.png used on i
+nput line 231.
+(pdftex.def)             Requested size: 239.09267pt x 170.43633pt.
+pdfTeX warning (ext4): destination with the same identifier (name{figRotulo}) h
+as been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.231 \end{frame}
+                 {} [19
+
+ <./images/windows_builder_perspective_part1.png>]
+<images/windows_builder_perspective_part3.png, id=588, 956.373pt x 681.747pt>
+File: images/windows_builder_perspective_part3.png Graphic file (type png)
+
+<use images/windows_builder_perspective_part3.png>
+Package pdftex.def Info: images/windows_builder_perspective_part3.png used on i
+nput line 244.
+(pdftex.def)             Requested size: 239.09267pt x 170.43633pt.
+pdfTeX warning (ext4): destination with the same identifier (name{figRotulo}) h
+as been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.244 \end{frame}
+                 {}
+Overfull \vbox (5.8053pt too high) detected at line 244
  []
 
-[15
+[20
 
-] [16
+ <./images/windows_builder_perspective_part3.png>]
+<images/colocando_titulo.png, id=616, 925.859pt x 592.614pt>
+File: images/colocando_titulo.png Graphic file (type png)
 
-] [17
+<use images/colocando_titulo.png>
+Package pdftex.def Info: images/colocando_titulo.png used on input line 256.
+(pdftex.def)             Requested size: 277.75984pt x 177.78557pt.
+pdfTeX warning (ext4): destination with the same identifier (name{figRotulo}) h
+as been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.256 \end{frame}
+                 {}
+Overfull \vbox (10.15454pt too high) detected at line 256
+ []
 
-] [18
+[21
 
-] [19
+ <./images/colocando_titulo.png>] (./codes/PrimeiroPrograma.java) [22
 
-] [20
+]
+[23
 
-] [21
+] <images/jpanel.png, id=697, 752.411pt x 378.213pt>
+File: images/jpanel.png Graphic file (type png)
 
-] [22
+<use images/jpanel.png>
+Package pdftex.def Info: images/jpanel.png used on input line 280.
+(pdftex.def)             Requested size: 300.95906pt x 151.28252pt.
+pdfTeX warning (ext4): destination with the same identifier (name{figRotulo}) h
+as been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.280 \end{frame}
+                 {}
+Overfull \vbox (22.02654pt too high) detected at line 280
+ []
 
-] [23
+[24
 
-] [24
-
-] [25
+ <./images/jpanel.png>] (./codes/PrimeiroProgramaPura.java) [25
 
 ] [26
 
-] [27
+]
+<images/jlabel.png, id=778, 662.475pt x 379.016pt>
+File: images/jlabel.png Graphic file (type png)
+ <use images/jlabel.png>
+Package pdftex.def Info: images/jlabel.png used on input line 302.
+(pdftex.def)             Requested size: 264.9853pt x 151.60371pt.
+pdfTeX warning (ext4): destination with the same identifier (name{figRotulo}) h
+as been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.302 \end{frame}
+                 {} [27
 
-] [28
-
-] [29
+ <./images/jlabel.png>] [28
 
 ]
-[30
+<images/jtextfield.png, id=833, 635.976pt x 350.108pt>
+File: images/jtextfield.png Graphic file (type png)
 
-] [31
+<use images/jtextfield.png>
+Package pdftex.def Info: images/jtextfield.png used on input line 315.
+(pdftex.def)             Requested size: 254.3859pt x 140.04071pt.
+pdfTeX warning (ext4): destination with the same identifier (name{figRotulo}) h
+as been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.315 \end{frame}
+                 {} [29
+
+ <./images/jtextfield.png>]
+<images/alinhando_a_esquerda.png, id=861, 927.465pt x 575.751pt>
+File: images/alinhando_a_esquerda.png Graphic file (type png)
+
+<use images/alinhando_a_esquerda.png>
+Package pdftex.def Info: images/alinhando_a_esquerda.png used on input line 327
+.
+(pdftex.def)             Requested size: 231.86568pt x 143.9374pt.
+pdfTeX warning (ext4): destination with the same identifier (name{figRotulo}) h
+as been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.327 \end{frame}
+                 {} [30
+
+ <./images/alinhando_a_esquerda.png>]
+(./codes/PrimeiroPrograma.java) [31
 
 ] [32
-
-] [33
-
-] [34
-
-] [35
-
-] [36
-
-] [37
-
-] [38
-
-] [39
-
-] [40
-
-] [41
-
-] [42
-
-] [43
-
-] [44
-
-]
-[45
-
-] [46
-
-] [47
-
-] [48
-
-] [49
-
-] [50
-
-] [51
-
-] [52
-
-] [53
-
-] [54
-
-] [55
-
-] [56
-
-] [57
-
-] [58
-
-] [59
-
-]
-[60
-
-] [61
-
-] [62
-
-] [63
-
-] [64
-
-] [65
-
-] [66
-
-] [67
 
 ]
 \tf@nav=\write6
@@ -1348,32 +1526,36 @@ Overfull \vbox (77.63318pt too high) detected at line 147
 \tf@snm=\write8
 \openout8 = `Swing.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 340.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 340.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 349.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 349.
  (./Swing.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 340.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 340.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 349.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 349.
 Package rerunfilecheck Info: File `Swing.out' has not changed.
-(rerunfilecheck)             Checksum: A15C2EA7053BC2758D296D6E00F91D86;2324.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 340.
+(rerunfilecheck)             Checksum: 23EB20492FE1A27C109337885E6067A9;316.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 349.
  ) 
 Here is how much of TeX's memory you used:
- 19858 strings out of 493485
- 351882 string characters out of 3143526
- 506008 words of memory out of 3000000
- 22465 multiletter control sequences out of 15000+200000
- 35959 words of font info for 62 fonts, out of 3000000 for 9000
+ 19647 strings out of 493485
+ 351632 string characters out of 3143526
+ 502008 words of memory out of 3000000
+ 22349 multiletter control sequences out of 15000+200000
+ 38814 words of font info for 66 fonts, out of 3000000 for 9000
  957 hyphenation exceptions out of 8191
- 49i,16n,70p,394b,1275s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 49i,16n,70p,394b,1290s stack positions out of 5000i,500n,10000p,200000b,50000s
 {/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/share/texliv
 e/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texmf/fonts/type1/public/c
 m-super/sftt0900.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt1000.pfb
 ></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share
 /texlive/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb>
-Output written on Swing.pdf (67 pages, 235523 bytes).
+Output written on Swing.pdf (32 pages, 1084461 bytes).
 PDF statistics:
- 2102 PDF objects out of 2487 (max. 8388607)
- 1997 compressed objects within 20 object streams
- 196 named destinations out of 1000 (max. 500000)
- 20860 words of extra memory for PDF output out of 24883 (max. 10000000)
+ 976 PDF objects out of 1000 (max. 8388607)
+ 887 compressed objects within 9 object streams
+ 75 named destinations out of 1000 (max. 500000)
+ 21180 words of extra memory for PDF output out of 24883 (max. 10000000)
 

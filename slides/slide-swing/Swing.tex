@@ -76,7 +76,7 @@
 %Formatação dos trechos em java acabam aqui.
 
 
-
+\graphicspath{{images/}}
 \begin{document}
 % the titlepage
 {
@@ -117,214 +117,223 @@
 \end{itemize}
 \end{frame}{}
 \subsubsection{Codificando no Editor convencional}
-\begin{frame}{Introdução}{Como usar o Java Swing}{Codificando no Editor convencional}
+\begin{frame}[allowframebreaks]{Introdução}{Como usar o Java Swing}{Codificando no Editor convencional}
 \lstinputlisting[language=Java]{codes/HelloWorldSwing.java}
 \end{frame}{}
-\subsubsection{Metodo Drop \& Drag I - NetBeans}
-\begin{frame}{Introdução}{Como usar o Java Swing}{Metodo Drop \& Drag I - NetBeans}
-\end{frame}{}
-\subsubsection{Metodo Drop \& Drag - Plugin WindowBuilder para Eclipse}
-\begin{frame}
-\end{frame}{}
-%				Como instalar o WindowBuilder
 
-
-			
-\section{Top-Level Containers}
-\begin{frame}{Top-Level Containers}{}
-\end{frame}{}
-\begin{frame}{Top-Level Containers}
-\begin{itemize}
-\item JFrame
-\item JDialog
-\item JApplet
-\end{itemize}
-\end{frame}{}
-
-\subsection{JFrame}
-\begin{frame}{Top-Level Containers}{JFrame}
-\lstinputlisting[language=Java]{codes/FirstProgram.java}
-\end{frame}{}
-\begin{frame}{Top-Level Containers}{JFrame}
-\begin{figure}[!htb]
+\begin{frame}{Introdução}{Como usar o Java Swing}
+  \begin{figure}[!htb]
     \centering
-%	\includegraphics[0.5]{images/primeiro_programa}
-    \caption{Resultado do PrimeiroPrograma.java}
+    \includegraphics[scale=0.5]{hello_world}
+    \caption{HelloWordSwing.java}
     \label{figRotulo}
   \end{figure}
 \end{frame}{}
 
-\subsection{JDialog}
-\begin{frame}{Nosso primeiro programa}{JDialog}
+
+\begin{frame}{Introdução}{Criando Projeto}
+  \begin{figure}[!htb]
+    \centering
+    \includegraphics[scale=0.25]{criando_projeto_swing}
+    \caption{Projeto Java}
+    \label{figRotulo}
+  \end{figure}
 \end{frame}{}
 
-\subsection{JApplet}
-\begin{frame}{Nosso primeiro programa}{Top-Level Containers}{JApplet}
+\begin{frame}{Introdução}{Criando Classe Principal}
+  \begin{figure}[!htb]
+    \centering
+    \includegraphics[scale=0.25]{criando_primeiro_programa}
+    \caption{PrimeiroPrograma.java}
+    \label{figRotulo}
+  \end{figure}
+\end{frame}{}
+
+\subsubsection{Metodo Drop \& Drag - Plugin WindowBuilder para Eclipse}
+\begin{frame}{Página principal do Window Builder para Eclipse}
+\textbf{https://www.eclipse.org/windowbuilder/}
+  \begin{figure}[!htb]
+    \centering
+    \includegraphics[scale=.4]{pag_principal_window_builder}
+    \caption{Página principal do Window Builder}
+    \label{figRotulo}
+  \end{figure}
+\end{frame}{}
+
+\subsubsection{WindowBuilder - Instalando }
+\begin{frame}{WindowBuilder - Instalando }
+\textbf{Help > Instal New Software}
+  \begin{figure}[!htb]
+    \centering
+    \includegraphics[scale=.4]{instalando_window_builder_1}
+    \caption{Instalando Window Builder}
+    \label{figRotulo}
+  \end{figure}
+\end{frame}{}
+
+\begin{frame}{WindowBuilder - Instalando }
+Clique em \textbf{Add}.
+  \begin{figure}[!htb]
+    \centering
+    \includegraphics[scale=.3]{window_builder_add}
+    \caption{Instalando Window Builder}
+    \label{figRotulo}
+  \end{figure}
+\end{frame}{}
+
+\begin{frame}{WindowBuilder - Instalando }
+Em \textbf{Name} digite \textbf{WindowBuilder} (pode ser qualquer nome).
+\linebreak
+Em \textbf{Location} digite a url 
+	http://download.eclipse.org/windowbuilder/WB/release/R201309271200/4.3/
+  \begin{figure}[!htb]
+    \centering
+    \includegraphics[scale=.3]{window_builder_url}
+    \caption{Instalando Window Builder}
+    \label{figRotulo}
+  \end{figure}
+\end{frame}{}
+
+\subsubsection{WindowBuilder - Perspectiva }
+\begin{frame}{Abrindo Editor do Window Builder}
+Clique com o botão direito na classe PrimeiroPrograma.java . Selecione \textbf{Open with} e depois \textbf{WindowBuilder Editor}.
+  \begin{figure}[!htb]
+    \centering
+    \includegraphics[scale=.4]{window_builder_perspective}
+    \caption{Abrindo Editor do Window Builder}
+    \label{figRotulo}
+  \end{figure}
+\end{frame}{}
+
+\begin{frame}{Abrindo Editor do Window Builder}
+\begin{itemize}
+\item \textbf{Source} - Como o Editor padrão do Eclipse.
+\item \textbf{Design} - Editor gráfico do Window Builder.
+\end{itemize}
+  \begin{figure}[!htb]
+    \centering
+    \includegraphics[scale=.3]{windows_builder_perspective_source}
+    \caption{Editor do Windows Builder}
+    \label{figRotulo}
+  \end{figure}
+\end{frame}{}
+
+\begin{frame}{Aba Design do Editor do Window Builder}
+\begin{itemize}
+\item Visualizador gráfico.
+\end{itemize}
+  \begin{figure}[!htb]
+    \centering
+    \includegraphics[scale=.25]{windows_builder_perspective_part1}
+    \caption{Aba Design}
+    \label{figRotulo}
+  \end{figure}
+\end{frame}{}
+
+\begin{frame}{Aba Design do Editor do Window Builder}
+\begin{itemize}
+\item \textbf{Structure} - estrutura da tela com seus componentes.
+\item \textbf{Properties} - propriedades do componente selecionado.
+\end{itemize}
+  \begin{figure}[!htb]
+    \centering
+    \includegraphics[scale=.25]{windows_builder_perspective_part3}
+    \caption{Estrutura e propriedades}
+    \label{figRotulo}
+  \end{figure}
+\end{frame}{}
+
+\begin{frame}{Construindo a janela}
+Inserindo um título à janela.
+\linebreak
+Selecione a janela e insira em \textbf{Title} na aba \textbf{Properties}.
+  \begin{figure}[!htb]
+    \centering
+    \includegraphics[scale=.3]{colocando_titulo}
+    \caption{Estrutura e propriedades}
+    \label{figRotulo}
+  \end{figure}
+\end{frame}{}
+
+\begin{frame}{Construindo a janela}
+O equivalente em código seria.
+\lstinputlisting[language=Java,linerange=18-19]{codes/PrimeiroPrograma.java}
+\end{frame}{}
+
+\begin{frame}{Construindo a janela - \textbf{JPanel}}
+%TODO Definição
+\end{frame}{}
+
+\begin{frame}{Construindo a janela - \textbf{JPanel}}
+\begin{itemize}
+\item O Window Builder utiliza o método \textbf{Drag \& Drop} (clica e solta)
+\item As áreas verdes são os locais onde o componente pode ser inserido
+\item As divisões entre as áreas verdes são ditadas pelo \textbf{layout} escolhido
+\item Por padrão o layout é o \textbf{BorderLayout} que divide a tela em \textbf{NORTH}, \textbf{SOUTH},\textbf{WEST}, \textbf{CENTER} e \textbf{EAST}.
+\end{itemize}
+\begin{figure}[!htb]
+    \centering
+    \includegraphics[scale=.4]{jpanel}
+    \caption{JPanel}
+    \label{figRotulo}
+  \end{figure}
+\end{frame}{}
+
+\begin{frame}{Construindo a janela - \textbf{JPanel}}
+Em código:
+\lstinputlisting[language=Java]{codes/PrimeiroProgramaPura.java}
+\end{frame}{}
+
+\begin{frame}{Construindo a janela - \textbf{JLabel}}
+%TODO Definição
 \end{frame}{}
 
 
-\section{Menu e ToolBar}
-\begin{frame}{Menu e ToolBar}{}
+\begin{frame}{Construindo a janela - \textbf{JLabel}}
+\begin{itemize}
+\item Ao inserir o JLabel já defina o nome!
+\end{itemize}
+\begin{figure}[!htb]
+    \centering
+    \includegraphics[scale=.4]{jlabel}
+    \caption{JLabel}
+    \label{figRotulo}
+  \end{figure}
 \end{frame}{}
 
-\subsection{JToolBar}
-\begin{frame}{Menu e ToolBar}{JToolBar}
+\begin{frame}{Construindo a janela - \textbf{JTextField}}
+%TODO Definição
 \end{frame}{}
 
-
-\section{Layouts}
-\begin{frame}{Layouts}{}
+\begin{frame}{Construindo a janela - \textbf{JTextField}}
+\begin{figure}[!htb]
+    \centering
+    \includegraphics[scale=.4]{jtextfield}
+    \caption{JTextField}
+    \label{figRotulo}
+  \end{figure}
 \end{frame}{}
 
-\subsection{FlowLayout}
-\begin{frame}{Layouts}{FlowLayout}
+\begin{frame}{Construindo a janela - Alinhando os componentes}
+\begin{itemize}
+\item Os tipos de alinhamento disponíveis são : \textbf{LEFT}, \textbf{RIGHT}, \textbf{CENTER}, \textbf{LEADING}(bottom) e \textbf{TRAILING} (top)
+\end{itemize}
+\begin{figure}[!htb]
+    \centering
+    \includegraphics[scale=.25]{alinhando_a_esquerda}
+    \caption{Alinhando componentes}
+    \label{figRotulo}
+  \end{figure}
 \end{frame}{}
 
-\subsection{GridLayout}
-\begin{frame}{Layouts}{GridLayout}
-\end{frame}{}
-
-\subsection{BorderLayout}
-\begin{frame}{Layouts}{BorderLayout}
-\end{frame}{}
-
-\subsection{BoxLayout}
-\begin{frame}{Layouts}{BoxLayout}
-\end{frame}{}
-
-
-\section{Caixas de Diálogo}
-\begin{frame}{Caixas de Diálogo}{}
-\end{frame}{}
-
-\subsection{JDialog}
-\begin{frame}{Caixas de Diálogo}{JDialog}
-\end{frame}{}
-\subsection{Criando uma caixa de mensagem}
-\begin{frame}{Caixas de Diálogo}{Criando uma caixa de mensagem}
-\end{frame}{}
-
-\subsection{JFileChooser}
-\begin{frame}{Caixas de Diálogo}{JFileChooser}
-\end{frame}{}
-
-\subsection{JColorChooser}
-\begin{frame}{Caixas de Diálogo}{JColorChooser}
+\begin{frame}{Construindo a janela - \textbf{Alinhamento}}
+Em código:
+\lstinputlisting[language=Java,linerange=28-38]{codes/PrimeiroPrograma.java}
 \end{frame}{}
 
 
-\section{Componentes básicos}
-\begin{frame}{Componentes básicos}{}
-\end{frame}{}
 
-\subsection{Componentes de Texto}
-\begin{frame}{Componentes básicos}{Componentes de Texto}
-\end{frame}{}
-
-\subsubsection{TextField}
-\begin{frame}{Componentes básicos}{Componentes de Texto}{TextField}
-\end{frame}{}
-
-\subsubsection{FormattedTextField}
-\begin{frame}{Componentes básicos}{Componentes de Texto}{FormattedTextField}
-\end{frame}{}
-
-\subsubsection{PasswordField}
-\begin{frame}{Componentes básicos}{Componentes de Texto}{PasswordField}
-\end{frame}{}
-\subsubsection{TextArea}
-\begin{frame}{Componentes básicos}{Componentes de Texto}{TextArea}
-\end{frame}{}
-\subsubsection{Usando HTML em Componentes Swing}
-\begin{frame}{Componentes básicos}{Componentes de Texto}{Usando HTML em Componentes Swing}
-\end{frame}{}
-\subsection{Bordas}
-\begin{frame}{Componentes básicos}{Bordas}
-\end{frame}{}
-\subsection{Ícones e Imagens}
-\begin{frame}{Componentes básicos}{Ícones e Imagens}
-\end{frame}{}
-\subsection{Tabelas}
-\begin{frame}{Componentes básicos}{Tabelas}
-\end{frame}{}
-\subsubsection{JTable}
-\begin{frame}{Componentes básicos}{Tabelas}{JTable}
-\end{frame}{}
-\subsubsection{Criando uma tabela simples}
-\begin{frame}{Componentes básicos}{Tabelas}{Criando uma tabela simples}
-\end{frame}{}
-\subsection{Painel de rolagem}
-\begin{frame}{Componentes básicos}{Painel de rolagem}
-\end{frame}{}
-\subsubsection{JScrollPane}
-\begin{frame}{Componentes básicos}{Painel de rolagem}{JScrollPane}
-\end{frame}{}
-\subsection{Botões}
-\begin{frame}{Componentes básicos}{Botões}
-\end{frame}{}
-\subsubsection{JButton}
-\begin{frame}{Componentes básicos}{Botões}{JButton}
-\end{frame}{}
-\subsubsection{JCheckBox}
-\begin{frame}{Componentes básicos}{Botões}{JCheckBox}
-\end{frame}{}
-\subsubsection{JRadioButton}
-\begin{frame}{Componentes básicos}{Botões}{JRadioButton}
-\end{frame}{}
-\subsubsection{JMenuItem}
-\begin{frame}{Componentes básicos}{Botões}{JMenuItem}
-\end{frame}{}
-\subsubsection{JCheckBoxMenuItem}
-\begin{frame}{Componentes básicos}{Botões}{JCheckBoxMenuItem}
-\end{frame}{}
-\subsubsection{JRadioButtonMenuItem}
-\begin{frame}{Componentes básicos}{Botões}{JRadioButtonMenuItem}
-\end{frame}{}
-\subsubsection{JToggleButton}
-\begin{frame}{Componentes básicos}{Botões}{JToggleButton}
-\end{frame}{}
-\subsection{Outros}
-\begin{frame}{Componentes básicos}{Outros}
-\end{frame}{}
-\subsubsection{ProgressBar}
-\begin{frame}{Componentes básicos}{Outros}{ProgressBar}
-\end{frame}{}
-\subsubsection{Spinner}
-\begin{frame}{Componentes básicos}{Outros}{Spinner}
-\end{frame}{}
-\subsubsection{JList}
-\begin{frame}{Componentes básicos}{Outros}{JList}
-\end{frame}{}
-\section{Desenhando com o Swing}
-\begin{frame}{Desenhando com o Swing}{}
-\end{frame}{}
-\subsection{Pontos}
-\begin{frame}{Desenhando com o Swing}{Pontos}
-\end{frame}{}
-\subsection{Linhas}
-\begin{frame}{Desenhando com o Swing}{Linhas}
-\end{frame}{}
-\subsection{Figuras Geometricas}
-\begin{frame}{Desenhando com o Swing}{Figuras Geometricas}
-\end{frame}{}
-\subsection{Colorindo}
-\begin{frame}{Desenhando com o Swing}{Colorindo}
-\end{frame}{}
-\section{Eventos}
-\begin{frame}{Eventos}{}
-\end{frame}{}
-\subsection{ActionEvent}
-\begin{frame}{Eventos}{ActionEvent}
-\end{frame}{}
-\section{Exemplos}
-\begin{frame}{Exemplos}{}
-\end{frame}{}
-\subsection{Tetrix}
-\begin{frame}{Exemplos}{Tetrix}
-\end{frame}{}
-\subsection{Puzzle}
-\begin{frame}{Exemplos}{Puzzle}
-\end{frame}{}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Referências}
 \begin{frame}{Referências}{}
 \begin{itemize}

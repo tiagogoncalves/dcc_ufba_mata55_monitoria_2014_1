@@ -1,21 +1,36 @@
-package start;
-import javax.swing.*;        
+package br.ufba.mata55;
 
-public class HelloWorldSwing {
-    private static void createAndShowGUI() {
-        JFrame frame = new JFrame("HelloWorldSwing");
-        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+import javax.swing.JFrame;
+import javax.swing.JPanel;
+import javax.swing.SwingUtilities;
 
-        JLabel label = new JLabel("Hello World");
-        frame.getContentPane().add(label);
-        frame.pack();
-        frame.setVisible(true);
+
+public class HelloWorldSwing extends JFrame {
+
+	public HelloWorldSwing() {
+        initUI();
+    }
+
+    private void initUI() {
+
+       JPanel panel = new JPanel();
+       getContentPane().add(panel);
+
+       panel.setLayout(null);
+
+       setTitle("Hello World!");
+       setSize(300, 200);
+       setLocationRelativeTo(null);
+       setDefaultCloseOperation(EXIT_ON_CLOSE);
     }
 
     public static void main(String[] args) {
-        javax.swing.SwingUtilities.invokeLater(new Runnable() {
+        
+        SwingUtilities.invokeLater(new Runnable() {
+            @Override
             public void run() {
-                createAndShowGUI();
+                HelloWorldSwing ex = new HelloWorldSwing();
+                ex.setVisible(true);
             }
         });
     }

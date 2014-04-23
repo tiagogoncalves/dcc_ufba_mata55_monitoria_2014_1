@@ -1,0 +1,16 @@
+package br.ufba.mata55;
+
+import javax.swing.JFrame;
+
+public class PrimeiroPrograma extends JFrame{
+	public PrimeiroPrograma() {
+		setTitle("Meu primeiro programa");
+		setResizable(false);
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
